@@ -82,6 +82,12 @@ const RepositoryName = styled.h2`
 const RepositoryDescription = styled.p`
   font-size: 14px;
   margin: 8px 0;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
 `
 const InfoLegend = styled.div`
   color: #333;
